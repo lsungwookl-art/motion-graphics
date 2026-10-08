@@ -69,3 +69,9 @@ Fix all errors before presenting the result.
 Full docs: https://hyperframes.heygen.com/introduction
 
 Machine-readable index for AI tools: https://hyperframes.heygen.com/llms.txt
+
+## Codex / other agents
+
+- Skills are mirrored to `.agents/skills/` (auto-discovered by Codex; invoke with `$hyperframes`, `$make-a-video`, … or by describing the task). Source of truth is `.claude/skills/` — after editing a skill run `scripts/sync-codex-skills.sh`.
+- **Read `CLAUDE.md` first**: it holds the workspace rules (render contract, preview gates, every-frame review) and applies to every agent. Also read `CREATOR.md`, `PREFERENCES.md`, `MOTION_PHILOSOPHY.md` before any video task.
+- Where a skill says "ask the user", ask in plain chat, one question at a time.
