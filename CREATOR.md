@@ -20,22 +20,23 @@ When putting handles on-screen (lower-thirds, outros, end-cards), use the platfo
 
 ## Platform priority
 
-_(Which platform(s) matter most, and the default aspect ratio. Most short-form creators default to **9:16 vertical, 1080×1920**. Set during /setup.)_
+**전 플랫폼 크로스포스트** (Instagram Reels / TikTok / YouTube Shorts 동시 업로드). 기본 **9:16 세로, 1080×1920, 30fps**.
 
 ## Content niche
 
-_(What you make videos about — e.g. AI tools, fitness, cooking, finance, comedy. Set during /setup. When planning a new video, the assistant assumes this niche unless told otherwise.)_
+1. **AI 툴 / 콘텐츠 제작**
+2. **고객의 니즈에 맞게 맞춤 작업** (클라이언트 요청에 따라 주제·톤이 달라짐 — 영상마다 브리프 확인)
 
 ## On-camera mix
 
-_(Do you appear on camera, go faceless, or both? Set during /setup.)_
+**둘 다** (영상마다 face-cam / faceless 선택).
 
 - **Face-cam** → use `/short-form-video` face-mode choreography (BOTTOM / FULLSCREEN modes).
 - **Faceless** → motion graphics + AI TTS narration (`npx hyperframes tts`) or screen-recordings.
 
 ## Workflow — division of labor
 
-_(Set during /setup. Two common modes:)_
+**영상(작업)마다 선택** — 시작 시 아래 두 모드 중 어느 쪽인지 반드시 확인할 것. 사용자 촬영본이 있으면 오디오/호흡/페이싱은 절대 건드리지 않는다.
 
 - **You record + pre-edit your own speaking video** → it's the source of truth; the assistant builds the visual layer on top and does NOT cut your audio, remove pauses, or change your pacing.
 - **You build from scratch with the assistant** → motion graphics, TTS narration, screen-recordings assembled together.
