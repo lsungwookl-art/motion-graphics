@@ -1,20 +1,14 @@
-<!-- HYPERFRAMES_SETUP_INCOMPLETE -->
-<!-- ^ Leave this marker until /setup is complete. It tells Claude to greet a new user
-     and run onboarding before any video work. The setup skill removes it when finished. -->
-
-# Creator Profile — _(your name)_
+# Creator Profile — (이름 미정)
 
 Your identity, positioning, and workflow for video work in this workspace. **Read this before every video task** (alongside `PREFERENCES.md`). Use it for on-screen text, niche framing, and workflow assumptions.
 
-> 🚧 **This file is a blank template.** Run `/setup` (or just tell Claude "help me get set up") and it will fill these sections in from a short interview. You can also edit it by hand any time.
-
 ## Identity
 
-- **Name on-screen**: _(your display name)_
-- **Instagram**: _(@handle or "—")_
-- **TikTok**: _(handle or "—")_
-- **YouTube**: _(handle or "—")_
-- **X / other**: _(handle or "—")_
+- **Name on-screen**: 미정 — 영상마다 브리프에서 확인 (이름이 정해지면 여기 갱신)
+- **Instagram**: —
+- **TikTok**: —
+- **YouTube**: —
+- **X / other**: —
 
 When putting handles on-screen (lower-thirds, outros, end-cards), use the platform-appropriate handle.
 
@@ -43,15 +37,15 @@ When putting handles on-screen (lower-thirds, outros, end-cards), use the platfo
 
 ## Brand identity
 
-_(Colors, fonts, logo. Often a blank slate at the start — `assets/brand-tokens.css` fills in over time. Set initial values during /setup.)_
+기본 다크 팔레트(`assets/brand-tokens.css`), 시스템 폰트. 클라이언트 작업 시 브리프의 브랜드로 덮어쓰고, `/feedback`으로 점차 다듬는다.
 
 ## Inspiration creators
 
-_(Studied creators live in [`_reference/creator-library/`](_reference/creator-library/). Paste a TikTok / Instagram Reel / YouTube Short URL and run `/study-creator <url>` to add one. At build time, name a creator — "build this like @handle" — to apply their style fingerprint to the visual layer. /setup seeds your first few here.)_
+아직 없음 (셋업 시 건너뜀). `/study-creator <url>`로 언제든 추가 — [`_reference/creator-library/`](_reference/creator-library/). 그 전엔 `MOTION_PHILOSOPHY.md` 기본값 사용.
 
 ## Posting cadence & length defaults
 
-- _Cadence_: _(TBD — set during /setup)_
+- _Cadence_: 미정 (필요 시 갱신)
 - _Default length_: 15–45s short-form vertical is a common sweet spot. Adjust per video.
 - _Default fps_: 30 (matches TikTok + Instagram defaults).
 
